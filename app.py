@@ -13,6 +13,7 @@ from functions.preprocess_image import preprocess_image
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def upload_file():
     return render_template('home.html')
